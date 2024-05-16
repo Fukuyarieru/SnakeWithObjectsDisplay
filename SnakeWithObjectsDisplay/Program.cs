@@ -1,4 +1,7 @@
-﻿static void Main(string[]args)
+﻿public class SnakeWithObjectsDisplay
 {
-    ObjectsDisplay<string> Display = new ObjectsDisplay<string>(10, 10);
+    public static void Main(string[]args)
+    {
+        ObjectsDisplay<string> Display = new ObjectsDisplay<string>(10, 10);
+    }
 }
