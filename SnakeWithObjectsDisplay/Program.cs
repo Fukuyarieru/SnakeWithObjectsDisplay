@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿static void Main(string[]args)
+{
+    ObjectsDisplay<string> Display = new ObjectsDisplay<string>(10, 10);
+}
